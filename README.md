@@ -1,3 +1,34 @@
+# 一、阶段1：GPU计算筑基（0 - 6个月）
+## 目标
+掌握工业级GPU加速技能，完成首个开源项目
+
+## 核心逻辑
+通过免费资源 + 实战项目快速构建竞争力
+
+## 学习资源与计划
+|技能模块|免费资源|重点内容|实践项目|
+| ---- | ---- | ---- | ---- |
+|CUDA编程|- NVIDIA CUDA官方文档（精读第3 - 5章）<br>- GTC免费讲座（搜索"CFD GPU"）|内存模型、Warp调度、共享内存优化|在Colab上实现二维方腔流GPU求解器（对比CPU性能）|
+|工业软件|- ANSYS学生版<br>- OpenFOAM - GPU教程|Fluent UDF开发、OpenFOAM GPU编译|开发翼型气动优化插件（数据集：NASA官网的NACA0012）|
+|性能分析|- Nsight Systems免费版|GPU时间线分析、瓶颈定位|优化矩阵乘法代码至cuBLAS性能的70%（提交Nsight报告）|
+
+## 习题与验收
+### 习题1：共享内存分块优化
+- **要求**：将矩阵乘法性能提升至Global Memory版本的3倍
+- **提交**：GitHub代码 + Nsight Compute分析截图  
+
+### 习题2：OpenFOAM - GPU部署
+- **要求**：在Kaggle Notebook完成Lid - Driven Cavity案例
+- **提交**：公开Notebook链接（需包含性能对比表格）  
+
+## 阶段成果验证
+- **GitHub项目**：2个仓库（CUDA优化 + OpenFOAM案例），总Star≥50
+- **社区贡献**：在CFD Online论坛回答3个技术问题（获赞≥20）
+
+
+
+
+
 
 # 一、学习方法论
 
