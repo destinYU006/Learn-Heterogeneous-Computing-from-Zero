@@ -26,4 +26,6 @@
               
               
       2. 两年内 找到研究方向，完成一篇SCI论文。 
-      
+
+## 二维方腔相关资料
+      https://www.wenxiaobai.com/share/chat/a9059153-8361-4383-b27b-2ca1317f710d
